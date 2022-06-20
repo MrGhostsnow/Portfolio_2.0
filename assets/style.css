@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    background-color:hsla(340,8%,30%,1);
+    background-image:
+    radial-gradient(at 0% 66%, hsla(277,71%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 43% 80%, hsla(240,50%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 16% 26%, hsla(287,74%,33%,1) 0px, transparent 50%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card_firstpage {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 6em;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-color:rgb(194, 196, 196);
+}
+
+
+.img {
+    background-image: url("/assets/images/ouroboros.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding: 10em;
+    margin-left: 5.5em;
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.intro p {
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.intro span {
+    font-size: 1.2em;
+}
+
