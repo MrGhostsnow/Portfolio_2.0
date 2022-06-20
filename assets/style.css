@@ -7,7 +7,8 @@
 }
 
 body{
-    width: 100vw;
+    width: 100%;
+    height: 100%;
     background-color:hsla(340,8%,30%,1);
     background-image:
     radial-gradient(at 0% 66%, hsla(277,71%,76%,1) 0px, transparent 50%),
@@ -17,7 +18,11 @@ body{
     background-attachment: fixed;
 }
 
-.card_firstpage {
+main {
+    width: 100%;
+}
+
+.card_FirstPage {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -63,3 +68,113 @@ body{
     font-size: 1.2em;
 }
 
+.btns_Direcao {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 17.5rem;
+    
+    
+}
+
+.btn_SobreMim {
+    display: flex;
+    position: relative;
+    top: -30em;
+    cursor: pointer;
+    padding: 0.5em;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ;
+}
+
+.btn_Projetos {
+    display: flex;
+    position: relative;
+    top: -20em;
+    cursor: pointer;
+    padding: 0.5em;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ;
+}
+
+.btn_Habilidades {
+    display: flex;
+    position: relative;
+    top: -10em;
+    cursor: pointer;
+    padding: 0.5em;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ;
+}
+
+.btn_Contato {
+    display: flex;
+    cursor: pointer;
+    padding: 0.5em;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out ;
+}
+
+
+.btn {
+    color: #FFF;
+    border: 1px solid #000;
+    box-shadow:0px 0px 0px 1px #000 inset;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn:hover {
+    border: 4px solid rgb(0, 0, 0);
+    background-color:hsla(340,8%,30%,1);
+    background-image:
+    radial-gradient(at 0% 66%, hsla(277,71%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 43% 80%, hsla(240,50%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 16% 26%, hsla(287,74%,33%,1) 0px, transparent 50%);
+    box-shadow:0px 0px 0px 4px transparent inset;
+  }
+  
+  /*btn_text*/
+  .btn span {
+    transition: all 0.2s ease-out;
+    z-index: 2;
+  }
+  .btn:hover span{
+    letter-spacing: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  /*highlight*/
+  .btn:after {
+    background-color:hsla(340,8%,30%,1);
+    background-image:
+    radial-gradient(at 0% 66%, hsla(277,71%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 43% 80%, hsla(240,50%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 16% 26%, hsla(287,74%,33%,1) 0px, transparent 50%);
+    border: 0px solid #000;
+
+    height: 155px;
+    left: -75px;
+    opacity: .8;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+    width: 50px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+    z-index: 1;
+  }
+  .btn:hover:after {
+    background: #FFF;
+    border: 20px solid #000;
+    opacity: 0;
+    left: 120%;
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
