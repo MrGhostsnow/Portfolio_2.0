@@ -1,21 +1,37 @@
 const buttons = document.querySelector('.btns_Direcao');
-const sobreMim = document.querySelector('.btn_SobreMim');
-const projetos = document.querySelector('.btn_Projetos');
-const habilidades = document.querySelector('.btn_Habilidades');
-const contato = document.querySelector('.btn_Contato');
-
+const btnsobreMim = document.querySelector('.btn_SobreMim');
+const btnprojetos = document.querySelector('.btn_Projetos');
+const btnhabilidades = document.querySelector('.btn_Habilidades');
+const btncontato = document.querySelector('.btn_Contato');
+const btnvoltar = document.querySelector("#back_arrow");
+const firstCard = document.querySelector('.card_FirstPage')
+const containerAbouMe = document.querySelector('.container_SobreMim');
 
 
 
 function showBtns() {
-    sobreMim.style.display= "flex"
-    sobreMim.style.opacity = "1"
-    projetos.style.opacity = "1"
-    projetos.style.display= "flex"
-    habilidades.style.opacity = "1"
-    habilidades.style.display= "flex"
-    contato.style.opacity = "1"
-    contato.style.display= "flex"
+    btnsobreMim.style.display= "flex"
+    btnsobreMim.style.opacity = "1"
+    btnprojetos.style.opacity = "1"
+    btnprojetos.style.display= "flex"
+    btnhabilidades.style.opacity = "1"
+    btnhabilidades.style.display= "flex"
+    btncontato.style.opacity = "1"
+    btncontato.style.display= "flex"
     
+}
+
+function showAboutMe() {
+    addEventListener("click", () => {
+        firstCard.style.display = "none";
+        containerAbouMe.style.display = "flex";
+    })
+}
+
+function backToFirstPage() {
+    addEventListener("click", () => {
+        firstCard.style.display = "flex";
+        containerAbouMe.style.display = "none";
+    })
 }
 

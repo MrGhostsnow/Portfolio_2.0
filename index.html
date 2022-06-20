@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Mr.Ghostsnow</title>
 </head>
@@ -18,12 +19,19 @@
                     <p>Mr.Ghostsnow</p>
                     <span>Desenvolvedor Front-end</span>
                     <div class="btns_Direcao" >
-                        <button class="btn_SobreMim btn"><span>Sobre mim</span></button>
+                        <button class="btn_SobreMim btn" onclick="showAboutMe()"><span>Sobre mim</span></button>
                         <button class="btn_Projetos btn"><span>Projetos</span></button>
                         <button class="btn_Habilidades btn"><span>Habilidades</span></button>
                         <button class="btn_Contato btn"><span>Contato</span></button>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container_SobreMim">
+            <div class="card_SobreMim">
+                <i id="back_arrow" class="bi bi-arrow-left" onclick="backToFirstPage()"></i>
+                <p id="sobreMim">Sou uma pessoa interessada em constantemente obter conhecimento, estou sempre em busca de evoluir, e disposto a enfrentar os desafios para conquistar uma carreira de sucesso.</p>
             </div>
         </div>
         

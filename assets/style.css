@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -177,4 +178,40 @@ main {
     left: 120%;
     -webkit-transform: rotate(40deg);
             transform: rotate(40deg);
+  }
+
+
+  .container_SobreMim {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding: 18em;
+  }
+
+  .card_SobreMim {
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-color:rgb(194, 196, 196);
+  }
+
+  #sobreMim {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em ;
+  }
+
+  #back_arrow {
+    color: rgb(161, 13, 230);
+    font-size: 1.3em;
+    position: relative;
+    top: -1em;
+    right: 1em;
+    cursor: pointer;
   }
