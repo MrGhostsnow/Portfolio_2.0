@@ -20,8 +20,8 @@
                     <span>Desenvolvedor Front-end</span>
                     <div class="btns_Direcao" >
                         <button class="btn_SobreMim btn" onclick="showAboutMe()"><span>Sobre mim</span></button>
-                        <button class="btn_Projetos btn"><span>Projetos</span></button>
-                        <button class="btn_Habilidades btn"><span>Habilidades</span></button>
+                        <button class="btn_Projetos btn" onclick="showProjects()"><span>Projetos</span></button>
+                        <a href="#habilidades"><button class="btn_Habilidades btn"><span>Habilidades</span></button></a>
                         <button class="btn_Contato btn"><span>Contato</span></button>
                     </div>
                 </div>
@@ -34,6 +34,99 @@
                 <p id="sobreMim">Sou uma pessoa interessada em constantemente obter conhecimento, estou sempre em busca de evoluir, e disposto a enfrentar os desafios para conquistar uma carreira de sucesso.</p>
             </div>
         </div>
+
+        <div class="container_projetos">
+            <div class="card_projeto">
+                <i id="back_arrow" class="bi bi-arrow-left" onclick="backToFirstPage()"></i>
+              <figure class="snip0015">
+                <img src="./assets/images/pixabay.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>Pixabay</h2>
+                  <p>
+                    Projeto desenvolvido para site de busca de fotos com consumo
+                    de API.
+                  </p>
+                  <a target="_blanke" href="https://github.com/MrGhostsnow/pixabay-api"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/panteao.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>Panteão</h2>
+                  <p>
+                    Projeto desenvolvido para site de cadastro, alteração e
+                    visualização de detalhes.
+                  </p>
+                  <a target="_blanke" href="https://github.com/MrGhostsnow/panteao"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/alterando_imagens.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>Alterador de imagem</h2>
+                  <p>Projeto desenvolvido para site de alteração de imagem.</p>
+                  <a target="_blanke" href="https://github.com/MrGhostsnow/Projeto1_Modulo2-JogodeHumor"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/pokedex.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>Pokédex</h2>
+                  <p>
+                    Projeto desenvolvido para site de cadastro, alteração e
+                    visualização de detalhes.
+                  </p>
+                  <a target="_blanke" href="https://github.com/MrGhostsnow/pokedex-postgres"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/el_geladon.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>El Geladon</h2>
+                  <p>
+                    Projeto desenvolvido para site cardápio de cadastro, alteração
+                    e visualização de detalhes.
+                  </p>
+                  <a target="_blanke" href="https://github.com/MrGhostsnow/react-elgeladon"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/todo_list.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>To Do List</h2>
+                  <p>Projeto desenvolvido para site de lista de tarefas.</p>
+                  <a target="_blanke" href="https://github.com/MrGhostsnow/test-react-listadetarefas"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/sist_login.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>Página de Login</h2>
+                  <p>Projeto desenvolvido para site de login e cadastro.</p>
+                  <a  target="_blanke" href="https://github.com/MrGhostsnow/login-react"></a>
+                </figcaption>
+              </figure>
+              <figure class="snip0015">
+                <img src="./assets/images/weather_app.png" alt="imagem de projeto" />
+                <figcaption>
+                  <h2>Weather App</h2>
+                  <p>Projeto desenvolvido para site clima tempo.</p>
+                  <a  target="_blanke" href="https://github.com/MrGhostsnow/login-react"></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="card_habilidades" id="habilidades">
+            <img class="icon_html icon" src="./assets/icons/html.svg" alt="icon html" />
+            <img class="icon_css icon" src="./assets/icons/css.svg" alt="icon css" />
+            <img
+              class="icon_js icon"
+              src="./assets/icons/javascript.svg"
+              alt="icon js"
+            />
+          </div>
+  
         
     </main>
     <script src="./assets/script.js"></script>
