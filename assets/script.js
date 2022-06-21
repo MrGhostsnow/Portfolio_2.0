@@ -8,7 +8,7 @@ const firstCard = document.querySelector('.card_FirstPage')
 const containerAbouMe = document.querySelector('.container_SobreMim');
 const containerProjects = document.querySelector('.container_projetos');
 const containerSkills = document.querySelector('.card_habilidades')
-
+const ouroboros = document.getElementById("logo")
 
 function showBtns() {
     btnsobreMim.style.display= "flex"
