@@ -7,6 +7,7 @@ const btnvoltar = document.querySelector("#back_arrow");
 const firstCard = document.querySelector('.card_FirstPage')
 const containerAbouMe = document.querySelector('.container_SobreMim');
 const containerProjects = document.querySelector('.container_projetos');
+const containerSkills = document.querySelector('.card_habilidades')
 
 
 function showBtns() {
@@ -25,6 +26,8 @@ function showAboutMe() {
     addEventListener("click", () => {
         firstCard.style.display = "none";
         containerAbouMe.style.display = "flex";
+        containerSkills.style.display = "none"
+
     })
 }
 
@@ -32,6 +35,7 @@ function showProjects() {
     addEventListener("click", () => {
         firstCard.style.display = "none";
         containerProjects.style.display = "flex";
+        containerSkills.style.display = "none"
     })
 }
 
@@ -40,6 +44,7 @@ function backToFirstPage() {
         firstCard.style.display = "flex";
         containerAbouMe.style.display = "none";
         containerProjects.style.display = "none";
+        containerSkills.style.display = "flex"
     })
 }
 

@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -514,4 +516,66 @@ figure.snip0015 {
        0% 100%
      );
   }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000;
+    height: 3.8em;
+  }
+  
+
+  #footer {
+    color: rgb(255, 255, 255);
+    font-family:  'Anek Latin', sans-serif;
+    padding: 1.4em;
+    justify-content: flex-start;
+    align-items:flex-end ;
+  }
+
+  #logo {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+  }
+
+  .container_socialbtns {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  
+  .socialbtns, .socialbtns ul, .socialbtns li {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .socialbtns li {
+      list-style: none outside none;
+      display: inline-block;
+  }
+  
+  .socialbtns .fa {
+    width: 40px;
+      height: 28px;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #000;
+    padding-top: 12px;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -o-border-radius: 22px;
+  }
+  
+  .socialbtns .fa:hover {
+    color: #ffffff;
+    background-color:hsla(340,8%,30%,1);
+    background-image:
+    radial-gradient(at 0% 66%, hsla(277,71%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 43% 80%, hsla(240,50%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 16% 26%, hsla(287,74%,33%,1) 0px, transparent 50%);
+    border: 1px solid #000;
+  }
+
   
