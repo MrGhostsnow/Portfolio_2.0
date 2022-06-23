@@ -263,6 +263,20 @@ main {
     padding: 18em;
   }
 
+  @media(max-width: 700px) {
+    .container_SobreMim {
+      padding: 10em;
+      margin-bottom: 5em;
+    }
+  }
+
+  @media(max-width: 300px) {
+    .container_SobreMim {
+      padding: 8em;
+    }
+  }
+
+
   .card_SobreMim {
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -429,6 +443,24 @@ figure.snip0015 {
      
 }
 
+@media(max-width: 700px) {
+  .card_habilidades {
+    margin-bottom: 2.5em;
+  }
+}
+
+@media(max-width: 900px) {
+  .card_habilidades {
+    margin-bottom: 3.38em;
+  }
+}
+
+@media(max-width: 1000px) {
+  .card_habilidades {
+    margin-bottom: 14.8em;
+  }
+}
+
 .icon_html {
     display: flex;
     justify-content: center;
@@ -590,12 +622,14 @@ figure.snip0015 {
   
 
   #footer {
+    width: 100%;
     color: rgb(255, 255, 255);
     font-family:  'Anek Latin', sans-serif;
     padding: 1.4em;
     justify-content: flex-start;
     align-items:flex-end ;
   }
+
 
   #logo {
     margin: 0.5em 0.5em 0.5em 0.5em;
